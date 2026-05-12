@@ -42,8 +42,9 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 | Frame_Rafter{Left,Right} | 838mm | 2 |
 | Frame_RailTop{Left,Right} | 573mm | 2 |
 | Frame_RailBot{Left,Right} | 560mm | 2 |
+| Frame_FloorCenter | 630mm | 1 |
 
-**25 pieces, 17 × 2.4m lengths.**
+**26 pieces, 17 × 2.4m lengths.**
 
 Packing:
 - 2 × (1930 + 470 offcut) — eave purlin + ridge purlin
@@ -51,7 +52,7 @@ Packing:
 - 1 × (1700 + 573 + 124 offcut)
 - 4 × (1426 + 882 + 89 offcut)
 - 1 × (838 + 838 + 560 + 161 offcut)
-- 1 × (573 + 560 + 1267 offcut)
+- 1 × (630 + 573 + 560 + 631 offcut) — floor centre + side top rail + side bot rail
 
 ## 90×45 H4 wet SG8 pine — [Mitre 10 product](https://www.mitre10.co.nz/shop/building-hardware/timber/structural-framing/structural-framing/wet-radiata-sg8-h4-90x45mm/c/RC61520)
 
