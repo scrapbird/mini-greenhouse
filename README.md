@@ -151,11 +151,11 @@ H3 = above-ground outdoor treated. H4 = ground-contact treated. Treated radiata 
 Qty + cost (2.4m lengths):
 
 - 4× 70×45 H3 → ~$64
-- 16× 70×35 H3 → ~$176
+- 17× 70×35 H3 → ~$187
 - 2× 90×45 H4 → ~$40
 - 12× 90×21 decking → ~$216
 
-**Timber subtotal: ~$496**
+**Timber subtotal: ~$507**
 
 Why higher than first sketch: pallet-style shelves use 4 long 70×35 battens + 28 short 90×21 slats. That alone is ~9 extra lengths of timber.
 
@@ -251,14 +251,14 @@ Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (
 
 | | NZD |
 |---|---|
-| Timber | 496 |
+| Timber | 507 |
 | Polycarbonate | 225 |
 | Foundation | 56 |
 | Door hardware | 166 |
 | Hatch hardware | 40 |
 | Fasteners | 162 |
 | Finish | 115 |
-| **Subtotal** | **~$1,260** |
+| **Subtotal** | **~$1,271** |
 
 Over original NZ$550 target by ~$690. Levers to claw back:
 

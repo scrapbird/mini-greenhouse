@@ -39,9 +39,9 @@ def compute_closed_placements(ss):
     rot_x = FreeCAD.Rotation(FreeCAD.Vector(1, 0, 0), math.degrees(ang))
     I = FreeCAD.Rotation()
 
-    rafter_base_z = H_f - RW/cos_a + (-overhang_f) * R / D
-    ridge_base_y = (D - PY) - RT * cos_a
-    ridge_base_z = H_f - RW/cos_a + ridge_base_y * R / D
+    rafter_base_z = H_f_wall + (-overhang_f) * R / D
+    ridge_base_y = D - RT * cos_a
+    ridge_base_z = H_f_wall + ridge_base_y * R / D
 
     def P(x, y, z, rot=I):
         return FreeCAD.Placement(FreeCAD.Vector(x, y, z), rot)
@@ -82,6 +82,8 @@ R = float(ss.RoofRise); roof_thk = float(ss.RoofThk)
 ang = math.atan2(R, D); cos_a = math.cos(ang)
 H_b = H_ext - roof_thk * cos_a
 H_f = H_b - R
+H_f_wall = H_f - RW/cos_a
+H_b_wall = H_b - RW/cos_a
 overhang_f = float(ss.RoofOverhangF)
 
 door_clear = 3.0
@@ -108,7 +110,7 @@ for o in list(doc.Objects):
         rotate_about(o, FreeCAD.Vector(x_R_hinge, 0, 0), z_axis, +DOOR_OPEN_DEG)
 
 hinge_y = D
-hinge_z = H_b
+hinge_z = H_b_wall
 
 for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight",
              "Frame_EaveFront", "Frame_RidgeBack"]:
@@ -119,13 +121,13 @@ for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight",
 rad = math.radians(HATCH_OPEN_DEG)
 sin_h = math.sin(rad); cos_h = math.cos(rad)
 y_mid_closed = (-overhang_f + D) / 2
-z_mid_closed = (H_f - overhang_f * math.tan(ang) + H_b) / 2
+z_mid_closed = (H_f_wall - overhang_f * math.tan(ang) + H_b_wall) / 2
 yr = y_mid_closed - hinge_y
 zr = z_mid_closed - hinge_z
 y_mid_open = yr * cos_h + zr * sin_h + hinge_y
 z_mid_open = -yr * sin_h + zr * cos_h + hinge_z
 
-prop_start = FreeCAD.Vector(PX, PY, H_f - RW)
+prop_start = FreeCAD.Vector(PX, PY, H_f_wall - RW)
 prop_end   = FreeCAD.Vector(PX, y_mid_open, z_mid_open)
 
 for n in ["Hatch_Prop", "Hatch_PropBracketBot", "Hatch_PropBracketTop"]:

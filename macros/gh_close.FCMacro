@@ -38,9 +38,9 @@ def compute_closed_placements(ss):
     rot_x = FreeCAD.Rotation(FreeCAD.Vector(1, 0, 0), math.degrees(ang))
     I = FreeCAD.Rotation()
 
-    rafter_base_z = H_f - RW/cos_a + (-overhang_f) * R / D
-    ridge_base_y = (D - PY) - RT * cos_a
-    ridge_base_z = H_f - RW/cos_a + ridge_base_y * R / D
+    rafter_base_z = H_f_wall + (-overhang_f) * R / D
+    ridge_base_y = D - RT * cos_a
+    ridge_base_z = H_f_wall + ridge_base_y * R / D
 
     def P(x, y, z, rot=I):
         return FreeCAD.Placement(FreeCAD.Vector(x, y, z), rot)

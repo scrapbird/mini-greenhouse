@@ -9,7 +9,7 @@ Product links → Mitre 10 NZ (mitre10.co.nz). Prices are NZD estimates only —
 | Stock | Pieces | 2.4m lengths | Est. price/length | Subtotal |
 |---|---|---|---|---|
 | 70×45 H3 SG8 KD pine (posts) | 4 | 4 | ~$16 | ~$64 |
-| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 24 | 16 | ~$11 | ~$176 |
+| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 25 | 17 | ~$11 | ~$187 |
 | 90×45 H4 wet SG8 pine (floor bearers) | 2 | 2 | ~$20 | ~$40 |
 | 90×21 H3 radiata decking (floor + shelf slats) | 33 | 12 | ~$18 | ~$216 |
 
@@ -33,23 +33,24 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 | Piece | Length | Count |
 |---|---|---|
 | Frame_EaveFront | 1930mm | 1 |
-| Frame_RailBot{Front,Back}, Frame_RailTopFront, Frame_RidgeBack | 1910mm | 4 |
+| Frame_RailBot{Front,Back}, Frame_RailTopFront, Frame_RailTopBack | 1910mm | 4 |
+| Frame_RidgeBack | 1930mm | 1 |
 | Shelf{2,3}_Batten{Front,Back} | 1910mm | 4 |
 | Frame_BackCenter | 1700mm | 1 |
 | Door{L,R}_Stile{Hinge,Latch} | 1426mm | 4 |
 | Door{L,R}_Rail{Top,Bot} | 882mm | 4 |
-| Frame_Rafter{Left,Right} | 767mm | 2 |
+| Frame_Rafter{Left,Right} | 838mm | 2 |
 | Frame_RailTop{Left,Right} | 573mm | 2 |
 | Frame_RailBot{Left,Right} | 560mm | 2 |
 
-**24 pieces, 16 × 2.4m lengths.**
+**25 pieces, 17 × 2.4m lengths.**
 
 Packing:
-- 1 × (1930 + 470 offcut) — eave purlin
-- 8 × (1910 + 490 offcut)
+- 2 × (1930 + 470 offcut) — eave purlin + ridge purlin
+- 8 × (1910 + 490 offcut) — perimeter rails + shelf battens
 - 1 × (1700 + 573 + 124 offcut)
 - 4 × (1426 + 882 + 89 offcut)
-- 1 × (767 + 767 + 560 + 303 offcut)
+- 1 × (838 + 838 + 560 + 161 offcut)
 - 1 × (573 + 560 + 1267 offcut)
 
 ## 90×45 H4 wet SG8 pine — [Mitre 10 product](https://www.mitre10.co.nz/shop/building-hardware/timber/structural-framing/structural-framing/wet-radiata-sg8-h4-90x45mm/c/RC61520)
