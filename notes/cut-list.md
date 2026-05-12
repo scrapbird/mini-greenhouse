@@ -9,7 +9,7 @@ Product links → Mitre 10 NZ (mitre10.co.nz). Prices are NZD estimates only —
 | Stock | Pieces | 2.4m lengths | Est. price/length | Subtotal |
 |---|---|---|---|---|
 | 70×45 H3 SG8 KD pine (posts) | 4 | 4 | ~$16 | ~$64 |
-| 70×35 H3 SG8 KD pine (frame/doors/shelves) | 21 | 14 | ~$11 | ~$154 |
+| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 24 | 16 | ~$11 | ~$176 |
 | 90×45 H4 wet SG8 pine (floor bearers) | 2 | 2 | ~$20 | ~$40 |
 | 90×21 H3 radiata decking (floor + shelf slats) | 33 | 12 | ~$18 | ~$216 |
 
@@ -32,21 +32,25 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 
 | Piece | Length | Count |
 |---|---|---|
-| Frame_RailBotFront/Back, Frame_RailTopFront/Back | 1910mm | 4 |
+| Frame_EaveFront | 1930mm | 1 |
+| Frame_RailBot{Front,Back}, Frame_RailTopFront, Frame_RidgeBack | 1910mm | 4 |
 | Shelf{2,3}_Batten{Front,Back} | 1910mm | 4 |
-| Frame_BackCenter | 1720mm | 1 |
+| Frame_BackCenter | 1700mm | 1 |
 | Door{L,R}_Stile{Hinge,Latch} | 1497mm | 4 |
 | Door{L,R}_Rail{Top,Bot} | 882mm | 4 |
-| Frame_Rafter{Left,Right} | 715mm | 2 |
+| Frame_Rafter{Left,Right} | 767mm | 2 |
+| Frame_RailTop{Left,Right} | 573mm | 2 |
 | Frame_RailBot{Left,Right} | 560mm | 2 |
 
-**21 pieces, 14 × 2.4m lengths.**
+**24 pieces, 16 × 2.4m lengths.**
 
 Packing:
+- 1 × (1930 + 470 offcut) — eave purlin
 - 8 × (1910 + 490 offcut)
-- 1 × (1720 + 560 + 117 offcut)
+- 1 × (1700 + 573 + 124 offcut)
 - 4 × (1497 + 882 + 18 offcut)
-- 1 × (715 + 715 + 560 + 404 offcut)
+- 1 × (767 + 767 + 560 + 303 offcut)
+- 1 × (573 + 560 + 1267 offcut)
 
 ## 90×45 H4 wet SG8 pine — [Mitre 10 product](https://www.mitre10.co.nz/shop/building-hardware/timber/structural-framing/structural-framing/wet-radiata-sg8-h4-90x45mm/c/RC61520)
 
@@ -80,7 +84,7 @@ Packing:
 | Panel | W × H (mm) | Buy product |
 |---|---|---|
 | Roof_Hatch | 2000 × 822 | [Sunclear Ultra Corrugated 2.4m Clear](https://www.mitre10.co.nz/shop/sunclear-ultra-corrugated-polycarbonate-2-4m-clear/p/335668) (cut to 822mm width from 860mm sheet) |
-| Panel_BackL, Panel_BackR | 1650 × 930 | [Ampelite Twinwall Glazing 1050 × 2500mm Clear](https://www.mitre10.co.nz/shop/ampelite-twinwall-polycarbonate-glazing-system-1050-x-2500mm-clear/p/128788) (one sheet cuts two back panels) |
+| Panel_BackL, Panel_BackR | 1630 × 930 | [Ampelite Twinwall Glazing 1050 × 2500mm Clear](https://www.mitre10.co.nz/shop/ampelite-twinwall-polycarbonate-glazing-system-1050-x-2500mm-clear/p/128788) (one sheet cuts two back panels) |
 | Panel_Left, Panel_Right | 1650 × 630 | Cut from the same back-panel sheet's offcut, or [Ampelite 1220 × 610mm Clear](https://www.mitre10.co.nz/shop/ampelite-twinwall-polycarbonate-sheet-1220mm-x-610mm-clear/p/286867) (×2 — but undersize, would need larger) |
 | DoorL_Infill, DoorR_Infill | 1427 × 882 | Cut from a 1050 × 2500mm sheet (1 more sheet needed) |
 
