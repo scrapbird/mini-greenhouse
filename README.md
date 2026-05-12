@@ -274,24 +274,29 @@ Realistic floor with corners cut: **~$900 NZD**.
 
 ## Tools
 
-You have none → borrow these. Hand-saw substitution is fine but slow; circular saw is the one tool that would make the biggest difference if borrowable.
+Detailed list with prices + ALoT (Auckland Library of Tools) borrow plan: see [tools.md](tools.md).
 
-**Must have (borrow or buy cheap):**
+Owned: hand saw, cordless drill. Buying: Fuller pocket-hole jig, Ryobi router, plus measuring/clamping/PPE kit. Borrowing via ALoT half-yearly membership ($60): circular saw, mitre saw, orbital sander, workbench, sawhorses.
 
-- Tape measure
-- Pencil + combination square
-- Hand saw (or circular saw)
-- Cordless drill/driver + drill bits (3mm pilot, countersink)
-- Spirit level (600mm)
-- 2× bar clamps or quick-clamps
-- Tin snips OR fine-tooth blade (32+ tpi) for cutting polycarbonate
-- Safety glasses, dust mask, ear protection
+| Line | NZ$ |
+|---|---|
+| Must-buy tools | ~$636 |
+| ALoT half-yearly membership + loan fees | ~$63 |
+| **Tools total** | **~$699** |
 
-**Nice to have:**
+Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 
-- Mitre box (for square hand-cuts) — ~$15 if borrowing not possible
-- Pocket-hole jig (Kreg or generic) — speeds joinery massively, ~$40 cheap end
-- Orbital sander — ~$60 if buying; sandpaper + block works
+---
+
+## Grand total (materials + tools)
+
+| | NZD |
+|---|---|
+| Materials | ~$1,175 |
+| Tools (buy + ALoT membership) | ~$699 |
+| **Project total** | **~$1,874** |
+
+Foundation (pavers + sand, ~$56) sourced separately — not included. With material levers applied (single shelf, smaller stain, mixed sourcing — see Materials section): could land ~$1,600 all-in.
 
 ---
 
@@ -299,9 +304,13 @@ You have none → borrow these. Hand-saw substitution is fine but slow; circular
 
 Still need a call on:
 
-- Buy a basic toolkit vs. commit to borrowing? (affects budget headroom)
-- Want me to pre-stain timber before assembly, or after? (before = no missed spots; after = easier touchup)
+- Pre-stain timber before assembly, or after? (before = no missed spots; after = easier touchup)
+- Floor anchoring method — depends on final site (lawn / paver / concrete)
+- Stop-grooves (stub tenon) vs through-grooves on door rails — practise both, pick easier
 
 Resolved:
 
 - ~~Site orientation~~ → doors face afternoon sun (west)
+- ~~Tools: buy vs borrow~~ → must-buy list + ALoT half-yearly membership
+- ~~Pocket-hole jig brand~~ → Fuller (Mitre 10)
+- ~~Door panel join~~ → routed grooves (Ryobi router)
