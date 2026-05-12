@@ -21,10 +21,10 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 
 | Piece | Length |
 |---|---|
-| Frame_PostBL | 1790mm |
-| Frame_PostBR | 1790mm |
-| Frame_PostFL | 1640mm |
-| Frame_PostFR | 1640mm |
+| Frame_PostBL | 1719mm |
+| Frame_PostBR | 1719mm |
+| Frame_PostFL | 1569mm |
+| Frame_PostFR | 1569mm |
 
 **4 pieces, 4 × 2.4m lengths** (1 post per length).
 
@@ -36,7 +36,7 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 | Frame_RailBot{Front,Back}, Frame_RailTopFront, Frame_RidgeBack | 1910mm | 4 |
 | Shelf{2,3}_Batten{Front,Back} | 1910mm | 4 |
 | Frame_BackCenter | 1700mm | 1 |
-| Door{L,R}_Stile{Hinge,Latch} | 1497mm | 4 |
+| Door{L,R}_Stile{Hinge,Latch} | 1426mm | 4 |
 | Door{L,R}_Rail{Top,Bot} | 882mm | 4 |
 | Frame_Rafter{Left,Right} | 767mm | 2 |
 | Frame_RailTop{Left,Right} | 573mm | 2 |
@@ -48,7 +48,7 @@ Packing:
 - 1 × (1930 + 470 offcut) — eave purlin
 - 8 × (1910 + 490 offcut)
 - 1 × (1700 + 573 + 124 offcut)
-- 4 × (1497 + 882 + 18 offcut)
+- 4 × (1426 + 882 + 89 offcut)
 - 1 × (767 + 767 + 560 + 303 offcut)
 - 1 × (573 + 560 + 1267 offcut)
 

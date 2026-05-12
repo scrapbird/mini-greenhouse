@@ -23,10 +23,11 @@ def compute_closed_placements(ss):
     ang = math.atan2(R, D); cos_a = math.cos(ang); tan_a = math.tan(ang)
     H_b = H_ext - roof_thk * cos_a
     H_f = H_b - R
+    H_f_wall = H_f - RW/cos_a
 
     door_clear = 3.0
     door_total_w = (W - 2*PX) / 2 - door_clear
-    door_total_h = (H_f - 2*RW) - door_clear
+    door_total_h = (H_f_wall - 2*RW) - door_clear
     door_z0 = RW + door_clear/2
     x_L = PX + door_clear/2
     x_R = x_L + door_total_w + door_clear
