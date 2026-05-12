@@ -78,7 +78,7 @@ Packing:
 
 ## From offcuts (no extra stock)
 
-- **12 × shelf cleats** @ 560mm × 20×15mm — rip from 70×35 offcuts (~7m of cleat needed; one 2.4m of 70×35 ripped yields ~14m of 20×15 strips)
+- **10 × shelf cleats** @ 560mm × 20×15mm — rip from 70×35 offcuts (~6m of cleat needed; one 2.4m of 70×35 ripped yields ~14m of 20×15 strips)
 - **1 × astragal** @ 1497mm × 30×12mm — rip from a 1910 offcut
 
 # Polycarbonate panels

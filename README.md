@@ -239,9 +239,9 @@ Water-based decking stain (DECKMAX or Wattyl — Cabot's range is limited at Mit
 
 ### Shelves
 
-**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 6 height positions, first at 300mm from frame bottom, 175mm spacing (last at 1175mm). 2 pallet-style shelves fitted at positions 4 and 6; can be moved.
+**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 5 height positions, first at 475mm from frame bottom, 175mm spacing (last at 1175mm). 2 pallet-style shelves fitted at positions 3 and 5; can be moved.
 
-Cleats: 20×15mm offcuts of 70×35 stock, full depth (560mm). 12 cleats total → free from frame offcuts.
+Cleats: 20×15mm offcuts of 70×35 stock, full depth (560mm). 10 cleats total → free from frame offcuts.
 
 Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (560mm each) screwed on top with ~50mm gaps. Drains like the floor.
 
