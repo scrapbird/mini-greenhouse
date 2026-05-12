@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+# Close the greenhouse: reverse door swing, lower hatch, remove prop.
+# Inverse of gh_open.FCMacro — pulls all geometry from the Dims spreadsheet.
+
+import FreeCAD, math
+
+doc = FreeCAD.ActiveDocument
+if doc is None:
+    raise RuntimeError("No active document")
+ss = doc.Dims
+
+if doc.getObject("Hatch_Prop") is None:
+    FreeCAD.Console.PrintMessage("gh_close: already closed, no-op\n")
+else:
+    W = float(ss.Width); D = float(ss.Depth); H_ext = float(ss.Height)
+    PX = float(ss.PostX); PY = float(ss.PostY)
+    R = float(ss.RoofRise); roof_thk = float(ss.RoofThk)
+    ang = math.atan2(R, D)
+    H_b = H_ext - roof_thk * math.cos(ang)
+
+    door_clear = 3.0
+    door_total_w = (W - 2*PX) / 2 - door_clear
+    x_L = PX + door_clear/2
+    x_R_hinge = x_L + door_total_w + door_clear + door_total_w
+
+    DOOR_OPEN_DEG = 90
+    HATCH_OPEN_DEG = 60
+
+    def rotate_about(obj, center, axis, angle_deg):
+        rot = FreeCAD.Rotation(axis, angle_deg)
+        new_base = center - rot.multVec(center)
+        pivot_pl = FreeCAD.Placement(new_base, rot)
+        obj.Placement = pivot_pl.multiply(obj.Placement)
+
+    z_axis = FreeCAD.Vector(0, 0, 1)
+    x_axis = FreeCAD.Vector(1, 0, 0)
+
+    for o in list(doc.Objects):
+        if o.Name.startswith("DoorL_") and "Hinge_" not in o.Name:
+            rotate_about(o, FreeCAD.Vector(x_L, 0, 0), z_axis, +DOOR_OPEN_DEG)
+        elif o.Name.startswith("DoorR_") and "Hinge_" not in o.Name:
+            rotate_about(o, FreeCAD.Vector(x_R_hinge, 0, 0), z_axis, -DOOR_OPEN_DEG)
+
+    rotate_about(doc.Roof_Hatch,
+                 FreeCAD.Vector(0, D - PY, H_b),
+                 x_axis,
+                 +HATCH_OPEN_DEG)
+
+    for n in ["Hatch_Prop", "Hatch_PropBracketBot", "Hatch_PropBracketTop"]:
+        if doc.getObject(n):
+            doc.removeObject(n)
+
+    doc.recompute()
+    FreeCAD.Console.PrintMessage("gh_close: done\n")

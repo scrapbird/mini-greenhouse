@@ -99,10 +99,33 @@ In Claude Code, with FreeCAD open and the RPC server started, ask: *"Create a ne
 mini-greenhouse/
 ├── CLAUDE.md           # Specs + conventions for Claude
 ├── README.md           # This file
-├── plans/              # FreeCAD .FCStd files
-├── drawings/           # Exported PDFs / cut lists
-└── notes/              # Decisions, sketches, photos
+├── Greenhouse.FCStd    # FreeCAD model (canonical = closed state)
+├── macros/             # FCMacros — open/close toggles
+├── notes/              # Cut list + decisions
+└── drawings/           # Exported PDFs (later)
 ```
+
+## Open / close toggle
+
+Two macros in `macros/` toggle the doors + roof hatch between closed and open states. They read all geometry from the `Dims` spreadsheet, so they stay in sync if you change posts/depth/etc.
+
+- `gh_open.FCMacro` — swings doors out 90°, lifts hatch 60°, deploys the prop
+- `gh_close.FCMacro` — reverses all of the above
+
+To make them appear in FreeCAD's **Macro → Macros…** menu, symlink them into FreeCAD's macro dir:
+
+```bash
+ln -s ~/Development/mini-greenhouse/macros/gh_open.FCMacro ~/.local/share/FreeCAD/Macro/
+ln -s ~/Development/mini-greenhouse/macros/gh_close.FCMacro ~/.local/share/FreeCAD/Macro/
+```
+
+Then in FreeCAD: **Macro → Macros…**, pick one, Execute. Or run via the FreeCAD Python console:
+
+```python
+exec(open("/home/user/Development/mini-greenhouse/macros/gh_open.FCMacro").read())
+```
+
+Macros are idempotent — running `gh_open` twice is a no-op (it detects the `Hatch_Prop` object).
 
 ---
 

@@ -1,0 +1,86 @@
+# -*- coding: utf-8 -*-
+# Open the greenhouse: swing doors out, lift hatch, deploy prop.
+# Self-contained — pulls all geometry from the Dims spreadsheet.
+
+import FreeCAD, Part, math
+
+doc = FreeCAD.ActiveDocument
+if doc is None:
+    raise RuntimeError("No active document")
+ss = doc.Dims
+
+if doc.getObject("Hatch_Prop") is not None:
+    FreeCAD.Console.PrintMessage("gh_open: already open, no-op\n")
+else:
+    W = float(ss.Width); D = float(ss.Depth); H_ext = float(ss.Height)
+    PX = float(ss.PostX); PY = float(ss.PostY)
+    RW = float(ss.RailW)
+    R = float(ss.RoofRise); roof_thk = float(ss.RoofThk)
+
+    ang = math.atan2(R, D); cos_a = math.cos(ang)
+    H_b = H_ext - roof_thk * cos_a
+    H_f = H_b - R
+
+    door_clear = 3.0
+    door_total_w = (W - 2*PX) / 2 - door_clear
+    x_L = PX + door_clear/2
+    x_R_hinge = x_L + door_total_w + door_clear + door_total_w
+
+    DOOR_OPEN_DEG = 90
+    HATCH_OPEN_DEG = 60
+
+    def rotate_about(obj, center, axis, angle_deg):
+        rot = FreeCAD.Rotation(axis, angle_deg)
+        new_base = center - rot.multVec(center)
+        pivot_pl = FreeCAD.Placement(new_base, rot)
+        obj.Placement = pivot_pl.multiply(obj.Placement)
+
+    z_axis = FreeCAD.Vector(0, 0, 1)
+    x_axis = FreeCAD.Vector(1, 0, 0)
+
+    for o in list(doc.Objects):
+        if o.Name.startswith("DoorL_") and "Hinge_" not in o.Name:
+            rotate_about(o, FreeCAD.Vector(x_L, 0, 0), z_axis, -DOOR_OPEN_DEG)
+        elif o.Name.startswith("DoorR_") and "Hinge_" not in o.Name:
+            rotate_about(o, FreeCAD.Vector(x_R_hinge, 0, 0), z_axis, +DOOR_OPEN_DEG)
+
+    rotate_about(doc.Roof_Hatch,
+                 FreeCAD.Vector(0, D - PY, H_b),
+                 x_axis,
+                 -HATCH_OPEN_DEG)
+
+    rad = math.radians(HATCH_OPEN_DEG)
+    sin_h = math.sin(rad); cos_h = math.cos(rad)
+    y_mid_closed = (-float(ss.RoofOverhangF) + D) / 2
+    z_mid_closed = (H_f - float(ss.RoofOverhangF) * math.tan(ang) + H_b) / 2
+    yr = y_mid_closed - (D - PY)
+    zr = z_mid_closed - H_b
+    y_mid_open = yr * cos_h + zr * sin_h + (D - PY)
+    z_mid_open = -yr * sin_h + zr * cos_h + H_b
+
+    prop_start = FreeCAD.Vector(PX, PY, H_f - RW)
+    prop_end   = FreeCAD.Vector(PX, y_mid_open, z_mid_open)
+
+    direction = prop_end - prop_start
+    length = direction.Length
+    direction.normalize()
+
+    cyl = Part.makeCylinder(12.0, length, prop_start, direction)
+    prop = doc.addObject("Part::Feature", "Hatch_Prop")
+    prop.Shape = cyl
+    prop.ViewObject.ShapeColor = (0.65, 0.55, 0.30)
+
+    def bracket(name, base):
+        b = doc.addObject("Part::Box", name)
+        b.Length, b.Width, b.Height = 30, 30, 15
+        b.Placement.Base = FreeCAD.Vector(*base)
+        b.ViewObject.ShapeColor = (0.30, 0.30, 0.30)
+        return b
+
+    bracket("Hatch_PropBracketBot",
+            (prop_start.x - 15, prop_start.y - 15, prop_start.z - 15))
+    bracket("Hatch_PropBracketTop",
+            (prop_end.x - 15, prop_end.y - 15, prop_end.z - 15))
+
+    doc.recompute()
+    FreeCAD.Console.PrintMessage("gh_open: done\n")
