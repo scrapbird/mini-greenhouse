@@ -44,10 +44,13 @@ else:
         elif o.Name.startswith("DoorR_") and "Hinge_" not in o.Name:
             rotate_about(o, FreeCAD.Vector(x_R_hinge, 0, 0), z_axis, +DOOR_OPEN_DEG)
 
-    rotate_about(doc.Roof_Hatch,
-                 FreeCAD.Vector(0, D - PY, H_b),
-                 x_axis,
-                 -HATCH_OPEN_DEG)
+    for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight", "Frame_EaveFront"]:
+        obj = doc.getObject(name)
+        if obj is not None:
+            rotate_about(obj,
+                         FreeCAD.Vector(0, D - PY, H_b),
+                         x_axis,
+                         -HATCH_OPEN_DEG)
 
     rad = math.radians(HATCH_OPEN_DEG)
     sin_h = math.sin(rad); cos_h = math.cos(rad)
