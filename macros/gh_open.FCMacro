@@ -44,22 +44,27 @@ else:
         elif o.Name.startswith("DoorR_") and "Hinge_" not in o.Name:
             rotate_about(o, FreeCAD.Vector(x_R_hinge, 0, 0), z_axis, +DOOR_OPEN_DEG)
 
-    for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight", "Frame_EaveFront"]:
+    overhang_f = float(ss.RoofOverhangF)
+    hinge_y = D
+    hinge_z = H_b
+
+    for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight",
+                 "Frame_EaveFront", "Frame_RidgeBack"]:
         obj = doc.getObject(name)
         if obj is not None:
             rotate_about(obj,
-                         FreeCAD.Vector(0, D - PY, H_b),
+                         FreeCAD.Vector(0, hinge_y, hinge_z),
                          x_axis,
                          -HATCH_OPEN_DEG)
 
     rad = math.radians(HATCH_OPEN_DEG)
     sin_h = math.sin(rad); cos_h = math.cos(rad)
-    y_mid_closed = (-float(ss.RoofOverhangF) + D) / 2
-    z_mid_closed = (H_f - float(ss.RoofOverhangF) * math.tan(ang) + H_b) / 2
-    yr = y_mid_closed - (D - PY)
-    zr = z_mid_closed - H_b
-    y_mid_open = yr * cos_h + zr * sin_h + (D - PY)
-    z_mid_open = -yr * sin_h + zr * cos_h + H_b
+    y_mid_closed = (-overhang_f + D) / 2
+    z_mid_closed = (H_f - overhang_f * math.tan(ang) + H_b) / 2
+    yr = y_mid_closed - hinge_y
+    zr = z_mid_closed - hinge_z
+    y_mid_open = yr * cos_h + zr * sin_h + hinge_y
+    z_mid_open = -yr * sin_h + zr * cos_h + hinge_z
 
     prop_start = FreeCAD.Vector(PX, PY, H_f - RW)
     prop_end   = FreeCAD.Vector(PX, y_mid_open, z_mid_open)
