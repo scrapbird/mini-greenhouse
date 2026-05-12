@@ -14,6 +14,7 @@ First woodworking project: outdoor greenhouse cabinet. Plans drafted in FreeCAD,
 - Roof: adjustable/ventable **hatch** for hot-air release
 - Shelves: adjustable height, removable
 - Floor: raised, slatted (gaps for drainage), strong enough for large full pots
+- Site: doors face afternoon sun (west)
 
 ## Conventions
 

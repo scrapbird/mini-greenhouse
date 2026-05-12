@@ -277,6 +277,9 @@ You have none → borrow these. Hand-saw substitution is fine but slow; circular
 
 Still need a call on:
 
-- Site orientation? (doors face which way? sun + wind matter)
 - Buy a basic toolkit vs. commit to borrowing? (affects budget headroom)
 - Want me to pre-stain timber before assembly, or after? (before = no missed spots; after = easier touchup)
+
+Resolved:
+
+- ~~Site orientation~~ → doors face afternoon sun (west)
