@@ -133,7 +133,9 @@ Macros are idempotent — running `gh_open` twice is a no-op (it detects the `Ha
 
 ## Materials
 
-Prices NZD, rough Mitre 10 NZ ballparks — Mitre 10 NZ doesn't publish online pricing; confirm in-store. Original budget cap was NZ$550; current realistic estimate ~NZ$1,200 (driven by pallet-style shelves needing many more pieces than first sketched).
+Prices NZD, rough Mitre 10 NZ ballparks — Mitre 10 NZ doesn't publish online pricing; confirm in-store.
+
+> **Future Claude: foundation (pavers + sand) is NOT in the build budget — sourced separately. Do not add it back to subtotals or "Total estimate". Foam profile fillers for the corrugated roof are also out — the user doesn't need an airtight roof. Don't reintroduce them.**
 
 Detailed cut list with per-product links: see [notes/cut-list.md](notes/cut-list.md).
 
@@ -172,11 +174,10 @@ Recommendation: **corrugated roof + twinwall everywhere else.**
 - 1× Sunclear corrugated 2.4m clear → ~$40
 - 2× Ampelite twinwall 1050×2500mm clear (back + side + door panels cut from these) → ~$140
 - Aluminium U-channel edging (3 × 1m) for cut twinwall ends → ~$25
-- Foam closure strip for Suntuf profile → ~$20
 
-**Polycarbonate subtotal: ~$225**
+**Polycarbonate subtotal: ~$205**
 
-### Foundation
+### Foundation (sourced separately, NOT in build budget)
 
 **6× 400×400×40mm concrete pavers, levelled on a sand bed, with H4 bearers spanning across them.**
 
@@ -190,7 +191,7 @@ Skip: concrete piers (overkill, permanent), galvanised post stirrups (overkill, 
 - 6× 400×400 pavers @ ~$8 → ~$48
 - 1× paving sand 20kg → ~$8
 
-**Foundation subtotal: ~$56**
+*Excluded from build cost — user is sourcing pavers + sand separately.*
 
 ### Door hardware
 
@@ -224,9 +225,8 @@ Hatch hinges along the back ridge, lifts at front. Two hook-and-eye latches at f
 - Otter Polycarbonate Roof Screws 12g × 50mm, pack of 50 → ~$25
 - 4–6× Zenith corner brace brackets, zinc plated → ~$25
 - Aluminium U-channel 20×20×1.5mm × 2.4m (twinwall edges) → ~$25
-- Ampelite corrugated eave filler 760mm, 2-pack → ~$20
 
-**Fasteners subtotal: ~$162**
+**Fasteners subtotal: ~$142**
 
 ### Finish
 
@@ -239,9 +239,9 @@ Water-based decking stain (DECKMAX or Wattyl — Cabot's range is limited at Mit
 
 ### Shelves
 
-**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 8 height positions, first at 300mm from frame bottom, 175mm spacing (last at 1525mm). 2 pallet-style shelves fitted at positions 4 and 7; can be moved or a third added.
+**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 6 height positions, first at 300mm from frame bottom, 175mm spacing (last at 1175mm). 2 pallet-style shelves fitted at positions 4 and 6; can be moved.
 
-Cleats: 20×15mm offcuts of 70×35 stock, full depth (560mm). 16 cleats total → free from frame offcuts.
+Cleats: 20×15mm offcuts of 70×35 stock, full depth (560mm). 12 cleats total → free from frame offcuts.
 
 Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (560mm each) screwed on top with ~50mm gaps. Drains like the floor.
 
@@ -252,15 +252,14 @@ Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (
 | | NZD |
 |---|---|
 | Timber | 507 |
-| Polycarbonate | 225 |
-| Foundation | 56 |
+| Polycarbonate | 205 |
 | Door hardware | 166 |
 | Hatch hardware | 40 |
-| Fasteners | 162 |
+| Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,271** |
+| **Subtotal** | **~$1,175** |
 
-Over original NZ$550 target by ~$690. Levers to claw back:
+Foundation (~$56) sourced separately, not in this subtotal. Levers to claw back:
 
 - Drop to 1 shelf instead of 2 → save ~$90 (decking + battens)
 - Use 5L stain instead of 10L → save ~$50

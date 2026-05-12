@@ -9,11 +9,11 @@ Product links → Mitre 10 NZ (mitre10.co.nz). Prices are NZD estimates only —
 | Stock | Pieces | 2.4m lengths | Est. price/length | Subtotal |
 |---|---|---|---|---|
 | 70×45 H3 SG8 KD pine (posts) | 4 | 4 | ~$16 | ~$64 |
-| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 25 | 17 | ~$11 | ~$187 |
+| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 26 | 17 | ~$11 | ~$187 |
 | 90×45 H4 wet SG8 pine (floor bearers) | 2 | 2 | ~$20 | ~$40 |
 | 90×21 H3 radiata decking (floor + shelf slats) | 33 | 12 | ~$18 | ~$216 |
 
-**Timber subtotal: ~$474 NZD**
+**Timber subtotal: ~$507 NZD**
 
 Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 at Mitre 10 NZ (closest to model's 90×19 — 2mm thicker, negligible).
 
@@ -78,7 +78,7 @@ Packing:
 
 ## From offcuts (no extra stock)
 
-- **16 × shelf cleats** @ 560mm × 20×15mm — rip from 70×35 offcuts (~9m of cleat needed; one 2.4m of 70×35 ripped yields ~14m of 20×15 strips)
+- **12 × shelf cleats** @ 560mm × 20×15mm — rip from 70×35 offcuts (~7m of cleat needed; one 2.4m of 70×35 ripped yields ~14m of 20×15 strips)
 - **1 × astragal** @ 1497mm × 30×12mm — rip from a 1910 offcut
 
 # Polycarbonate panels
@@ -116,12 +116,14 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 | Casement window stay (multi-position) | 1 | [Jaeco Telescopic Window Stay 278mm](https://www.mitre10.co.nz/shop/jaeco-telescopic-window-stay-278mm-satin-chrome-finish/p/214252) | ~$20 |
 | Hook & eye latches (front corners) | 2 | [Zenith Gate Hook & Eye 100mm — 2 Pack](https://www.mitre10.co.nz/shop/zenith-gate-hook-eye-zinc-plated-100mm-2-pack) | ~$10 (2-pack covers both) |
 
-## Foundation
+## Foundation (sourced separately — NOT in build budget)
 
 | Item | Count | Product | Est. NZD |
 |---|---|---|---|
 | 400×400×40mm concrete pavers | 6 | [Premier Flagstone Paver 400×400×40mm](https://www.mitre10.co.nz/shop/premier-flagstone-paver-400-x-400-x-40mm-iron-sand/p/202882) | ~$8 each → ~$48 |
 | Paving sand | 1 bag | [Paving Sand 20kg](https://www.mitre10.co.nz/shop/paving-sand-20kg/p/2023381) | ~$8 |
+
+*Future Claude: don't add this to subtotals — user sources separately.*
 
 ## Fasteners
 
@@ -131,10 +133,11 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 | 50mm timber screws (slats, trims) | 1 pack (~50 needed) | [Otter Heavy Duty Timber Screws 14g × 50mm — Pack of 100](https://www.mitre10.co.nz/shop/otter-heavy-duty-timber-screws-14g-x-50mm-pack-of-100-galvanised/p/231194) | ~$22 |
 | Polycarbonate roof screws | 1 pack (~40 needed) | [Otter Polycarbonate Roof Screws 12g × 50mm — Pack of 50](https://www.mitre10.co.nz/shop/otter-polycarbonate-roof-screws-12g-x-50mm-pack-of-50-galvanised/p/231773) | ~$25 |
 | Corner brace brackets | 4–6 | [Zenith Corner Brace Bracket](https://www.mitre10.co.nz/shop/zenith-corner-brace-bracket/p/220106) | ~$5 each → ~$25 |
-| Corrugated eave filler (foam) | 1 pack | [Ampelite Corrugated Eave Filler 760mm — Pack of 2](https://www.mitre10.co.nz/shop/ampelite-corrugated-eave-filler-760mm-pack-of-2-black/p/426395) | ~$20 |
 | Aluminium U-channel (twinwall edges) | 3 × 1m or 1 × 2.4m | [Metal Mate Aluminium Channel 20 × 20 × 1.5mm × 2.4m](https://www.mitre10.co.nz/shop/metal-mate-aluminium-channel-20x20x1-5mm-x-2-4m-silver/p/372583) | ~$25 |
 
-**Fasteners subtotal: ~$162 NZD**
+**Fasteners subtotal: ~$142 NZD**
+
+*Future Claude: foam eave filler under corrugations is intentionally excluded — user doesn't need an airtight roof. Don't add it back.*
 
 ## Finish
 
@@ -149,19 +152,15 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 
 | | NZD |
 |---|---|
-| Timber | 474 |
-| Polycarbonate | 180 |
-| Foundation (pavers + sand) | 56 |
+| Timber | 507 |
+| Polycarbonate | 205 |
 | Door hardware | 166 |
 | Hatch hardware | 40 |
-| Fasteners | 162 |
+| Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,193** |
+| **Subtotal** | **~$1,175** |
 
-Original NZ target: was ~AU$500 in README (was AUD; ≈ NZ$550). New realistic estimate ~NZ$1,200 — **over 2× target**. Drivers:
-
-- Pallet shelves added a lot of 90×21 stock and 70×35 battens.
-- NZ prices ~15–25% higher than AU baseline used in original budget.
+Foundation (~$56 in pavers + sand) sourced separately, **not** in this subtotal. Foam roof eave filler also excluded — user doesn't need an airtight roof.
 - README under-counted hardware (tee-hinges, stay, brackets).
 
 Levers to claw back:
