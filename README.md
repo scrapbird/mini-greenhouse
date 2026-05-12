@@ -110,143 +110,143 @@ mini-greenhouse/
 
 ## Materials
 
-All prices AUD, rough Bunnings/Mitre10 ballparks — verify in-store. Budget cap: **$500**.
+Prices NZD, rough Mitre 10 NZ ballparks — Mitre 10 NZ doesn't publish online pricing; confirm in-store. Original budget cap was NZ$550; current realistic estimate ~NZ$1,200 (driven by pallet-style shelves needing many more pieces than first sketched).
+
+Detailed cut list with per-product links: see [notes/cut-list.md](notes/cut-list.md).
 
 ### Timber
 
-H3 = above-ground outdoor treated. H4 = ground-contact treated. Treated pine is the right call here: cheap, available everywhere, rated for outdoor weather, takes stain well.
+H3 = above-ground outdoor treated. H4 = ground-contact treated. Treated radiata pine: cheap, everywhere, rated for outdoor weather, takes stain well.
 
-| Use | Recommended | Why |
+| Use | Stock | Why |
 |---|---|---|
-| 4× corner posts (1.8m) | **70×45 H3 treated pine** | Carries shelf loads + door weight. Extra width gives screw bite for hinges. |
-| Frame rails, roof rafters, door frames | **70×35 H3 treated pine** | Plenty for a 0.7m-deep cabinet. Cheaper + lighter than 70×45. |
-| Floor bearers (sit on pavers) | **90×45 H4 treated pine** | Ground-contact — this is the bit that'll rot first if you skimp. |
-| Floor slats + shelf slats | **90×19 H3 treated pine decking** | Already milled with a smooth top, designed for wet duty. Gaps between slats drain. |
+| 4× corner posts | **70×45 H3 SG8 KD pine** | Carries shelf loads + door weight. 70mm depth gives hinge screws bite. |
+| Frame rails, rafters, door frames, shelf battens, back centre beam | **70×35 H3 SG8 pine** | Cheaper + lighter than 70×45. Plenty for this span. |
+| Floor bearers (under cabinet, on pavers) | **90×45 H4 wet SG8 pine** | Ground-contact — first thing to rot if you skimp. |
+| Floor slats + shelf slats | **90×21 H3 radiata decking** | Pre-milled smooth top, wet-duty rated. (Mitre 10 NZ stock is 90×21, not 90×19.) |
 
-Rough qty + cost (2.4m lengths, ~$8–12 each):
+Qty + cost (2.4m lengths):
 
-- 4× 70×45 H3 @ 2.4m → ~$48
-- 8× 70×35 H3 @ 2.4m → ~$72
-- 2× 90×45 H4 @ 2.4m (bearers, cut down) → ~$24
-- 4× 90×19 H3 decking @ 2.4m (floor + shelves) → ~$40
+- 4× 70×45 H3 → ~$64
+- 14× 70×35 H3 → ~$154
+- 2× 90×45 H4 → ~$40
+- 12× 90×21 decking → ~$216
 
-**Timber subtotal: ~$184**
+**Timber subtotal: ~$474**
+
+Why higher than first sketch: pallet-style shelves use 4 long 70×35 battens + 28 short 90×21 slats. That alone is ~9 extra lengths of timber.
 
 ### Polycarbonate
 
 | Type | Pros | Cons | Best use |
 |---|---|---|---|
-| **Corrugated (Suntuf/Sunlite)** | Cheap (~$30–40/sheet), purpose-built for roofing, sheds water naturally, easy to screw with cap screws, every Bunnings stocks it | Profile only suits roofs/walls with same profile; needs foam profile fillers under ridges | **Roof** ✓ |
-| **Twinwall (multiwall, 4–6mm)** | Insulating air gap = warmer greenhouse, light-diffusing (good for plants), externally flat, cheaper than solid, lighter | Channels can fungus up if ends aren't taped/closed; not crystal-clear | **Sides + back + doors** ✓ (best $/m²) |
-| **Solid clear sheet (2–3mm)** | Crystal-clear view of plants, premium look, easy to cut with fine blade | ~2× the price of twinwall, no insulation, scratches show | Sides if budget allows + you want shop-window look |
-| **Solid tinted/opal** | Cuts glare + heat | Less light = slower growth | Skip for this build |
+| **Corrugated (Sunclear / Suntuf)** | Cheap, purpose-built for roofing, sheds water naturally, easy to screw with cap screws | Profile only suits roofs/walls with same profile; needs foam closure under ridges | **Roof** ✓ |
+| **Twinwall (Ampelite, 6mm)** | Insulating air gap = warmer greenhouse, light-diffusing, externally flat, cheaper than solid | Channels need taping/closing at cut ends; not crystal-clear | **Sides + back + doors** ✓ |
+| **Solid clear sheet (2–3mm)** | Crystal-clear, premium look | ~2× price of twinwall, no insulation, scratches show | Skip for this build |
 
-Recommendation: **corrugated roof + twinwall everywhere else.** Twinwall externally has the flat finish you want; the ribs are internal. Costs roughly half what solid sheet does.
+Recommendation: **corrugated roof + twinwall everywhere else.**
 
-- 1× Suntuf corrugated clear ~2.4×0.86m → ~$40
-- 4× twinwall 6mm ~2.1×0.7m → ~$140–180 (depends on thickness/brand)
-- Aluminium U-channel edging for cut twinwall ends + roof profile foam fillers → ~$25
+- 1× Sunclear corrugated 2.4m clear → ~$40
+- 2× Ampelite twinwall 1050×2500mm clear (back + side + door panels cut from these) → ~$140
+- Aluminium U-channel edging (3 × 1m) for cut twinwall ends → ~$25
+- Foam closure strip for Suntuf profile → ~$20
 
-**Polycarbonate subtotal: ~$210**
+**Polycarbonate subtotal: ~$225**
 
 ### Foundation
 
-**Recommendation: 6× 400×400mm concrete pavers, levelled on a sand bed, with H4 bearers spanning across them.**
+**6× 400×400×40mm concrete pavers, levelled on a sand bed, with H4 bearers spanning across them.**
 
-- Cheap (~$5 each = $30), no concreting, fully removable
-- Lifts timber clear of wet ground (timber-on-dirt is what kills these things)
+- Cheap, no concreting, fully removable
+- Lifts timber clear of wet ground
 - Forgiving of slight ground unevenness — just rake sand flat
-- Footprint 2.0×0.7m → two rows of three pavers spaced under bearers
+- Footprint: pavers overhang cabinet front and back by ~178mm each side (front overhang doubles as a doorstep)
 
 Skip: concrete piers (overkill, permanent), galvanised post stirrups (overkill, $$$), direct-on-ground (rot bomb).
 
-**Foundation subtotal: ~$30** (pavers + a bag of paving sand)
+- 6× 400×400 pavers @ ~$8 → ~$48
+- 1× paving sand 20kg → ~$8
+
+**Foundation subtotal: ~$56**
 
 ### Door hardware
 
-You said: hinges, basic latch, deadbolts at top of each door.
+Pattern: **inactive door (left) bolted top+bottom**, acts as a fixed jamb when shut. **Active door (right) latches** against the inactive leaf's astragal. Astragal strip on inactive leaf seals the meeting edge.
 
-| Item | Pick | Price |
+| Item | Count | Price |
 |---|---|---|
-| Hinges | 2× pairs zinc-plated tee-hinges (150–200mm) — gate-style, look right on this build, mount on face so no rebating needed | ~$8–12/pair → **~$20** |
-| Latch (active door to inactive) | Galvanised gate latch or simple hook-and-eye | ~$8–10 |
-| Top bolts (one per door) | 2× 100mm barrel/tower bolts, galvanised — bolt up into the roof frame | ~$6 each → **~$12** |
-| Bottom bolt (inactive leaf) | 1× 100mm barrel bolt down into floor frame | ~$6 |
-| Handles | 2× cabinet pulls or just drilled finger-holes (free) | $0–15 |
+| Tee-hinges, 150mm galvanised (face-mount, no rebating) | 3 per leaf × 2 = 6 | ~$108 |
+| 100mm barrel bolts (inactive leaf top + bottom into roof frame and floor) | 2 | ~$30 |
+| D-type gate latch (active leaf) | 1 | ~$18 |
+| Handles | 2 | ~$10 (or $0 if drilled finger-pulls) |
 
-**Door hardware subtotal: ~$50–60**
+**Door hardware subtotal: ~$166**
 
-Pattern: inactive door is bolted top+bottom (acts as a fixed jamb when shut). Active door latches against it. Top bolt on the active door is optional belt-and-braces.
+### Hatch hardware
 
-### Roof hatch prop
+Hatch hinges along the back ridge, lifts at front. Two hook-and-eye latches at front-left and front-right pin it shut against wind lift. A telescopic window stay holds it open at multiple angles.
 
-Manual prop options:
-
-| Option | Price | Notes |
+| Item | Count | Price |
 |---|---|---|
-| **Casement window stay** (zinc, multi-position notches) | ~$10–15 | Recommended — adjustable to multiple opening heights, one-handed |
-| Wooden prop stick + cup hook | ~$2 (or scrap) | Crude but works. Fixed positions only. |
-| Folding cabinet door stay | ~$8–12 | Holds at one angle, no choice of vent amount |
-| Friction window stay | ~$15–25 | Smooth, holds at any angle, fiddly to install |
+| Butt hinges 50mm zinc (2-pack) | 1 pair | ~$10 |
+| Hook & eye latches 100mm (2-pack) | 1 pack | ~$10 |
+| Telescopic window stay (multi-position) | 1 | ~$20 |
 
-**Pick: casement window stay (~$12).** Pair with two small butt hinges for the hatch itself (~$8).
-
-**Hatch hardware subtotal: ~$20**
+**Hatch hardware subtotal: ~$40**
 
 ### Fasteners
 
-- 1× box 8g 65mm exterior screws (galv or stainless) — main frame → ~$18
-- 1× box 8g 50mm exterior screws — slats, trims → ~$15
-- ~30× polycarbonate cap screws with neoprene washers (purpose-made, won't crack the sheet) → ~$15
-- 4–6× 90° galvanised corner braces for stress points → ~$15
-- Roof profile foam fillers (suit Suntuf profile) → ~$12
+- Otter Treated Pine Screws 10g × 65mm, pack of 500 (frame joints — must be treated-pine rated for H3/H4 stock) → ~$45
+- Otter Heavy Duty Timber Screws 14g × 50mm, pack of 100 (slats, trims) → ~$22
+- Otter Polycarbonate Roof Screws 12g × 50mm, pack of 50 → ~$25
+- 4–6× Zenith corner brace brackets, zinc plated → ~$25
+- Aluminium U-channel 20×20×1.5mm × 2.4m (twinwall edges) → ~$25
+- Ampelite corrugated eave filler 760mm, 2-pack → ~$20
 
-**Fasteners subtotal: ~$75**
+**Fasteners subtotal: ~$162**
 
 ### Finish
 
-**Cabot's Deck & Exterior Stain**, water-based, tinted **Jarrah** or **Walnut** for dark — ~$45 for 2L (plenty for this size).
+Water-based decking stain (DECKMAX or Wattyl — Cabot's range is limited at Mitre 10 NZ). Apply two coats after assembly, before fitting polycarbonate.
 
-Apply two coats after assembly, before fitting polycarbonate. Water-based cleans up with water (no turps), low-smell, recoatable in hours.
+- 10L water-based decking stain — Honey Oak or similar dark tone → ~$100 (overkill for this build; if 5L sold in-store, halve)
+- Brushes (75mm + small) → ~$15
 
-- Stain → $45
-- Cheap synthetic brush (75mm) + small brush for corners → $15
-
-**Finish subtotal: ~$60**
+**Finish subtotal: ~$115**
 
 ### Shelves
 
-**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 8 height positions, first at 300mm from frame bottom, 175mm spacing (last at 1525mm). 3 shelves slotted into any 3 of the 8 positions; lift out for cleaning / rearranging tall plants.
+**Timber cleats** screwed into the inner faces of the side walls — one continuous batten per height per side, shelf sits on top. 8 height positions, first at 300mm from frame bottom, 175mm spacing (last at 1525mm). 2 pallet-style shelves fitted at positions 4 and 7; can be moved or a third added.
 
-Cleats: 20×15mm offcuts of 70×35 stock, full depth (610mm). 16 cleats total → uses ~10m of offcuts (free from frame stock).
+Cleats: 20×15mm offcuts of 70×35 stock, full depth (560mm). 16 cleats total → free from frame offcuts.
 
-Shelves: 90×19 decking, full inside width less cleat clearance, full inside depth.
+Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (560mm each) screwed on top with ~50mm gaps. Drains like the floor.
 
-**Shelf cost: ~$0** (offcuts only)
+**Shelf cost: ~$0** beyond timber already counted.
 
 ### Total estimate
 
-| | $ |
+| | NZD |
 |---|---|
-| Timber | 184 |
-| Polycarbonate | 210 |
-| Foundation | 30 |
-| Door hardware | 55 |
-| Hatch hardware | 20 |
-| Fasteners | 75 |
-| Finish | 60 |
-| Shelf pegs | 5 |
-| **Subtotal** | **~$639** |
+| Timber | 474 |
+| Polycarbonate | 225 |
+| Foundation | 56 |
+| Door hardware | 166 |
+| Hatch hardware | 40 |
+| Fasteners | 162 |
+| Finish | 115 |
+| **Subtotal** | **~$1,238** |
 
-Over budget by ~$140. Levers to pull:
+Over original NZ$550 target by ~$690. Levers to claw back:
 
-- Drop twinwall thickness 6mm → 4mm: saves ~$40
-- Use thinner Suntuf or one less sheet via tighter cuts: saves ~$10
-- Skip aluminium edging; use timber trim with sealant: saves ~$25
-- Single-coat finish, smaller can: saves ~$20
-- Reuse/scrounge offcut timber, free pavers off Marketplace: saves ~$40+
+- Drop to 1 shelf instead of 2 → save ~$90 (decking + battens)
+- Use 5L stain instead of 10L → save ~$50
+- Untreated pine for shelf slats (out of weather under the roof) → save ~$60
+- Substitute corrugated for the back panel (no need for clear flat there) → save ~$50
+- Mix Marketplace / Trade Me offcuts for posts and bearers → save ~$80+
+- Skip aluminium U-channel; tape twinwall ends + timber trim → save ~$25
 
-Realistically achievable: **~$500** with a bit of scrounging. Tight but doable.
+Realistic floor with corners cut: **~$900 NZD**.
 
 ---
 
@@ -259,7 +259,7 @@ You have none → borrow these. Hand-saw substitution is fine but slow; circular
 - Tape measure
 - Pencil + combination square
 - Hand saw (or circular saw)
-- Cordless drill/driver + drill bits (3mm pilot, 5mm shelf pin, countersink)
+- Cordless drill/driver + drill bits (3mm pilot, countersink)
 - Spirit level (600mm)
 - 2× bar clamps or quick-clamps
 - Tin snips OR fine-tooth blade (32+ tpi) for cutting polycarbonate
