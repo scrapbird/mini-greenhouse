@@ -259,16 +259,19 @@ Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (
 | Finish | 115 |
 | **Subtotal** | **~$1,175** |
 
-Foundation (~$56) sourced separately, not in this subtotal. Levers to claw back:
+Foundation (~$56) sourced separately, not in this subtotal. Levers to claw back, with quantified savings and running build cost if applied in order:
 
-- Drop to 1 shelf instead of 2 → save ~$90 (decking + battens)
-- Use 5L stain instead of 10L → save ~$50
-- Untreated pine for shelf slats (out of weather under the roof) → save ~$60
-- Substitute corrugated for the back panel (no need for clear flat there) → save ~$50
-- Mix Marketplace / Trade Me offcuts for posts and bearers → save ~$80+
-- Skip aluminium U-channel; tape twinwall ends + timber trim → save ~$25
+| # | Lever | Saves | Build cost after |
+|---|---|---|---|
+| 0 | (baseline) | — | $1,175 |
+| 1 | Drop to 1 shelf (2 fewer battens @ ~$11 + 14 fewer decking slats @ ~$5.20) | $95 | $1,080 |
+| 2 | 5L stain instead of 10L | $50 | $1,030 |
+| 3 | Untreated pine for shelf slats (under roof, less weather) | $60 | $970 |
+| 4 | Corrugated for back panel (replace twinwall sheet) | $50 | $920 |
+| 5 | Skip aluminium U-channel; foil-tape twinwall ends + timber trim | $25 | $895 |
+| 6 | Mix Marketplace / TradeMe offcuts for posts + bearers | $80+ | $815 |
 
-Realistic floor with corners cut: **~$900 NZD**.
+Realistic floor with all levers applied: **~$815 NZD** (materials only).
 
 ---
 
@@ -296,7 +299,7 @@ Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 | Tools (buy + ALoT membership) | ~$699 |
 | **Project total** | **~$1,874** |
 
-Foundation (pavers + sand, ~$56) sourced separately — not included. With material levers applied (single shelf, smaller stain, mixed sourcing — see Materials section): could land ~$1,600 all-in.
+Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,514 all-in** ($815 materials + $699 tools).
 
 ---
 
