@@ -2,9 +2,9 @@
 
 All prices NZD, mitre10.co.nz as of 2026-05-12. Confirm at checkout.
 
-**You already own:** hand saw, cordless drill. **Decisions locked:** Fuller pocket-hole jig (M10), Ryobi router, ALoT half-yearly membership.
+**You already own:** hand saw, cordless drill.
 
-Strategy: **buy** the things you'll use repeatedly or want long-term; **borrow from ALoT** (see bottom of doc) anything you'll use once. Borrow-first list flagged with 🅑 below.
+Strategy: **only buy** consumables, PPE, and the few tools you'll use every day. **Borrow everything else from ALoT** — including router and pocket-hole jig if you'd only use them on this project.
 
 ---
 
@@ -15,47 +15,65 @@ Strategy: **buy** the things you'll use repeatedly or want long-term; **borrow f
 
 ---
 
-## Must buy
+## Must buy — non-borrowable
 
-| Tool | Pick | NZ$ | Notes |
+Personal/consumable items you can't (or shouldn't) share.
+
+| Tool | Pick | NZ$ | Why must-buy |
 |---|---|---|---|
-| Pocket-hole jig | Fuller Pocket Hole Jig kit (M10) | $80 | Locked |
-| Pocket-hole screws coarse, mixed | Fuller 200-pack | ~$30 | Coarse thread for softwood. Mix 32mm + 38mm |
-| Router 1/4" + 6mm straight bit + 6mm slot/groove bit | Ryobi 1500W plunge router | ~$150 | For door panel grooves. Add a basic bit set ~$40 |
-| Tape measure 8m | Stanley FatMax 8m | ~$42 | Step down: Stanley Tylon 8m ~$17 |
-| Combination square 300mm | Number 8 300mm | ~$10 | |
-| Speed square 7" | Empire/Bahco aluminium | ~$20 | Cut guide for circular saw |
-| Spirit level 600mm | Number 8 600mm | ~$16 | |
-| Bar clamps 300mm × 4 | OX Pro 2-pack × 2 | ~$90 | You'll want 4 for door glue-up |
-| Drill bit set HSS | Bosch HSS 19pc 1–10mm | ~$45 | Step down: Jobmate 19pc ~$25 |
-| Pozi driver bit pack (PH2 + spares) | mixed pack | ~$10 | |
-| Counter-sink bit | Stanley 5pc | ~$15 | Recess screw heads |
-| Utility knife + spare blades | Stanley | ~$15 | |
-| Long straight edge 1.2m+ | Aluminium | ~$30 | Fence for circular saw |
-| Safety glasses | Esko clear | ~$8 | |
-| Dust mask P2 (5-pack) | 3M 8210 | ~$25 | Treated timber + poly dust |
-| Hearing protection | Safety Extra earmuffs | ~$25 | |
-| Bevel gauge / sliding T-bevel | Bahco 250mm | ~$25 | Side top rail bevels |
+| Pocket-hole screws (mixed 32+38mm) | Fuller 200-pack | $30 | Consumable |
+| Drill bit set HSS | Bosch HSS 19pc 1–10mm | $45 | Personal kit, wears |
+| Pozi driver bits + spares | mixed pack | $10 | Wears |
+| Counter-sink bit | Stanley | $15 | Small, wears |
+| Tape measure 8m | Stanley Tylon 8m | $17 | Daily use, yours |
+| Combination square 300mm | Number 8 | $10 | Daily use, cheap |
+| Pencils + marker + utility knife | Stanley | $20 | Daily / consumable |
+| Safety glasses | Esko clear | $8 | PPE, fit/hygiene |
+| Dust mask P2 (5-pack) | 3M 8210 | $25 | PPE, consumable |
+| Hearing protection | Safety Extra earmuffs | $25 | PPE, fit/hygiene |
 
-**Must-buy subtotal: ~$636**
+**Must-buy subtotal: ~$205**
 
 ---
 
-## Borrow from ALoT 🅑 — or buy if you'd use long-term
+## Optional buys — keep long-term, or borrow
 
-| Tool | If buying NZ$ | Why borrow |
+| Tool | If buying NZ$ | Decision |
 |---|---|---|
-| 🅑 Circular saw 165mm | $60 (B+D corded) — $280 (DeWalt cordless) | Use it for ~2 days of cutting. Borrow unless you'll build more |
-| 🅑 Sliding compound mitre saw | $250 (Ryobi) | Big upgrade for crosscuts but bulky to store |
-| 🅑 Random orbital sander | $80 (B+D) | Used at end of build; nice but optional |
-| 🅑 Workbench / Workmate | $120 | One-project use likely |
-| 🅑 Sawhorses × 2 | $50 ea | Or build 'em from offcuts — first mini-project! |
+| Pocket-hole jig (Fuller, M10) | $80 | Buy if you'll do more woodworking. Otherwise borrow from ALoT |
+| Router 1/4" + 6mm straight + slot bit | $150 (Ryobi + bits) | Same — buy if keeper, borrow if one-off |
+| Bar clamps 300mm × 2 (cheap pair) | $45 | Buy 2 cheap, borrow extras from ALoT |
 
-**If you borrow all of these via ALoT: save ~$700+ vs buying.** ALoT membership covers it.
+**If buying all three: +$275.**
 
 ---
 
-## Consumables (already in materials budget, listed here for completeness)
+## Borrow from ALoT 🅑
+
+All borrowable; ALoT membership covers them.
+
+| Tool | If buying NZ$ |
+|---|---|
+| 🅑 Circular saw 165mm | $60–280 |
+| 🅑 Sliding compound mitre saw | $250 |
+| 🅑 Random orbital sander | $80 |
+| 🅑 Router + bits | $150 |
+| 🅑 Pocket-hole jig | $80 |
+| 🅑 Bar clamps (3+) | $60+ |
+| 🅑 Spirit level 600mm | $16 |
+| 🅑 Speed square / rafter square | $20 |
+| 🅑 Bevel gauge / sliding T-bevel | $25 |
+| 🅑 Long straight edge 1.2m+ | $30 |
+| 🅑 Workbench / Workmate | $120 |
+| 🅑 Sawhorses × 2 | $100 |
+
+**Total avoided buys if you borrow all: ~$990+** — well worth the $60 membership.
+
+> Verify ALoT inventory before joining. Browse: https://aucklandlibraryoftools.myturn.com/
+
+---
+
+## Consumables (already in materials budget — listed for completeness)
 
 | Item | NZ$ |
 |---|---|
@@ -93,39 +111,33 @@ Strategy: **buy** the things you'll use repeatedly or want long-term; **borrow f
 
 **Recommended path for this build:**
 1. **Half-yearly $60** covers build window with slack.
-2. Pre-check inventory online for circular saw + mitre saw + sander + workbench availability before joining.
-3. Borrow circular saw + mitre saw + sander as a single weekend block; cut everything in one go.
-
-**Net cost calc:**
-- Half-yearly membership: $60
-- Tools borrowed (saves on buys): ~$700+
-- **Net saving vs buying: ~$640+**
+2. Pre-check inventory online (router + jig + circular saw + mitre saw + sander + clamps).
+3. Plan ALoT trips in batches — 10 tools per loan, 7 days each.
 
 ---
 
-## Locked-in tool spend
+## Three honest tool-spend paths
 
-| Line | NZ$ |
-|---|---|
-| Must-buy list (see table above) | ~$636 |
-| ALoT half-yearly membership | $60 |
-| ALoT battery-tool loan fees (~3 loans × $1) | ~$3 |
-| **Tool spend total** | **~$699** |
+| Path | What you buy | NZ$ |
+|---|---|---|
+| **Borrow-max** | Must-buy ($205) + ALoT half-year ($60 + ~$5 loan fees) | **~$270** |
+| **+ keep jig** | Above + pocket-hole jig ($80) | **~$350** |
+| **+ keep jig + router** | Above + Ryobi router ($150) | **~$500** |
 
-Borrowing via ALoT: circular saw, mitre saw, orbital sander, workbench, sawhorses. Approx. ~$700+ of buys avoided.
+Recommended: **borrow-max ~$270** unless you know you'll do more woodworking. Router + jig are the two biggest line items and both are well-stocked at ALoT.
 
 ---
 
 ## Where to shop
 
-- **Mitre 10 NZ:** https://www.mitre10.co.nz/ — main destination
-- **Bunnings NZ:** https://www.bunnings.co.nz/ — Kreg jigs stocked here, sometimes cheaper
-- **Facebook Marketplace / TradeMe** — used drill kits, clamps, often half retail
-- **Hireace / Hirepool** — backup if ALoT doesn't have what you need; $50/day mitre saw
+- **Mitre 10 NZ:** https://www.mitre10.co.nz/
+- **Bunnings NZ:** https://www.bunnings.co.nz/ — Kreg jigs stocked here
+- **Facebook Marketplace / TradeMe** — used drill kits, clamps
+- **Hireace / Hirepool** — backup if ALoT doesn't have what you need
 - **ALoT** — see above
 
 ---
 
 ## Open questions (tools-side)
 
-- Build out cordless ecosystem later? Existing cordless drill brand will dictate cheapest future buys
+- Borrow router + jig (~$270 total path) **or** buy them for future projects (~$500 total)? Depends on what comes after this build

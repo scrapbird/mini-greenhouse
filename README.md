@@ -279,13 +279,15 @@ Realistic floor with all levers applied: **~$836 NZD** (materials only).
 
 Detailed list with prices + ALoT (Auckland Library of Tools) borrow plan: see [tools.md](tools.md).
 
-Owned: hand saw, cordless drill. Buying: Fuller pocket-hole jig, Ryobi router, plus measuring/clamping/PPE kit. Borrowing via ALoT half-yearly membership ($60): circular saw, mitre saw, orbital sander, workbench, sawhorses.
+Owned: hand saw, cordless drill. Buying only consumables + PPE + a few daily-use measuring tools. Borrowing everything else (router, pocket-hole jig, circular saw, mitre saw, sander, clamps, levels, workbench) from ALoT half-yearly membership ($60).
 
-| Line | NZ$ |
+| Path | NZ$ |
 |---|---|
-| Must-buy tools | ~$636 |
-| ALoT half-yearly membership + loan fees | ~$63 |
-| **Tools total** | **~$699** |
+| **Borrow-max:** must-buy ($205) + ALoT half-year ($65) | **~$270** |
+| + keep pocket-hole jig | ~$350 |
+| + keep jig + router | ~$500 |
+
+Default for grand total below: **borrow-max ~$270**.
 
 Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 
@@ -296,10 +298,14 @@ Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 | | NZD |
 |---|---|
 | Materials | ~$1,196 |
-| Tools (buy + ALoT membership) | ~$699 |
-| **Project total** | **~$1,895** |
+| Tools (borrow-max — see Tools section) | ~$270 |
+| **Project total** | **~$1,466** |
 
-Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,535 all-in** ($836 materials + $699 tools).
+Foundation (pavers + sand, ~$56) sourced separately — not included.
+
+Other tool paths shift the total: + jig keep = ~$1,546, + jig + router keep = ~$1,696.
+
+With all material levers applied (see Materials → Total estimate) + borrow-max tools: could land **~$1,106 all-in** ($836 materials + $270 tools).
 
 ---
 
@@ -310,10 +316,10 @@ Still need a call on:
 - Pre-stain timber before assembly, or after? (before = no missed spots; after = easier touchup)
 - Floor anchoring method — depends on final site (lawn / paver / concrete)
 - Stop-grooves (stub tenon) vs through-grooves on door rails — practise both, pick easier
+- Future woodworking projects? — decides whether to keep (buy) jig + router (+$275) vs return after build
 
 Resolved:
 
 - ~~Site orientation~~ → doors face afternoon sun (west)
-- ~~Tools: buy vs borrow~~ → must-buy list + ALoT half-yearly membership
-- ~~Pocket-hole jig brand~~ → Fuller (Mitre 10)
-- ~~Door panel join~~ → routed grooves (Ryobi router)
+- ~~Tools: buy vs borrow~~ → borrow-max via ALoT half-yearly; revisit jig/router purchase if used after this build
+- ~~Door panel join~~ → routed grooves (router borrowed from ALoT)
