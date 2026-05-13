@@ -113,7 +113,7 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 
 | Item | Count | Product | Est. NZD |
 |---|---|---|---|
-| Butt hinges (back ridge) | 2 (1 pair) | [Zenith Easy Fit Hinges 50mm Zinc Plated](https://www.mitre10.co.nz/shop/zenith-easy-fit-hinges-50mm-zinc-plated/p/209101) | ~$10 (2-pack) |
+| Butt hinges (back ridge — corner+corner+middle) | 3 (buy 2× 2-pack) | [Zenith Easy Fit Hinges 50mm Zinc Plated](https://www.mitre10.co.nz/shop/zenith-easy-fit-hinges-50mm-zinc-plated/p/209101) | ~$20 (2× 2-pack) |
 | Casement window stay (multi-position) | 1 | [Jaeco Telescopic Window Stay 278mm](https://www.mitre10.co.nz/shop/jaeco-telescopic-window-stay-278mm-satin-chrome-finish/p/214252) | ~$20 |
 | Hook & eye latches (front corners) | 2 | [Zenith Gate Hook & Eye 100mm — 2 Pack](https://www.mitre10.co.nz/shop/zenith-gate-hook-eye-zinc-plated-100mm-2-pack) | ~$10 (2-pack covers both) |
 
@@ -156,10 +156,10 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 | Timber | 518 |
 | Polycarbonate | 205 |
 | Door hardware | 166 |
-| Hatch hardware | 40 |
+| Hatch hardware | 50 |
 | Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,186** |
+| **Subtotal** | **~$1,196** |
 
 Foundation (~$56 in pavers + sand) sourced separately, **not** in this subtotal. Foam roof eave filler also excluded — user doesn't need an airtight roof.
 - README under-counted hardware (tee-hinges, stay, brackets).

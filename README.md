@@ -212,11 +212,11 @@ Hatch hinges along the back ridge, lifts at front. Two hook-and-eye latches at f
 
 | Item | Count | Price |
 |---|---|---|
-| Butt hinges 50mm zinc (2-pack) | 1 pair | ~$10 |
+| Butt hinges 50mm zinc — corner+corner+middle along back ridge | 3 (buy 2× 2-pack) | ~$20 |
 | Hook & eye latches 100mm (2-pack) | 1 pack | ~$10 |
 | Telescopic window stay (multi-position) | 1 | ~$20 |
 
-**Hatch hardware subtotal: ~$40**
+**Hatch hardware subtotal: ~$50**
 
 ### Fasteners
 
@@ -254,24 +254,24 @@ Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (
 | Timber | 518 |
 | Polycarbonate | 205 |
 | Door hardware | 166 |
-| Hatch hardware | 40 |
+| Hatch hardware | 50 |
 | Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,186** |
+| **Subtotal** | **~$1,196** |
 
 Foundation (~$56) sourced separately, not in this subtotal. Levers to claw back, with quantified savings and running build cost if applied in order:
 
 | # | Lever | Saves | Build cost after |
 |---|---|---|---|
-| 0 | (baseline) | — | $1,186 |
-| 1 | Drop to 1 shelf (2 fewer battens @ ~$11 + 14 fewer decking slats @ ~$5.20) | $95 | $1,091 |
-| 2 | 5L stain instead of 10L | $50 | $1,041 |
-| 3 | Untreated pine for shelf slats (under roof, less weather) | $60 | $981 |
-| 4 | Corrugated for back panel (replace twinwall sheet) | $50 | $931 |
-| 5 | Skip aluminium U-channel; foil-tape twinwall ends + timber trim | $25 | $906 |
-| 6 | Mix Marketplace / TradeMe offcuts for posts + bearers | $80+ | $826 |
+| 0 | (baseline) | — | $1,196 |
+| 1 | Drop to 1 shelf (2 fewer battens @ ~$11 + 14 fewer decking slats @ ~$5.20) | $95 | $1,101 |
+| 2 | 5L stain instead of 10L | $50 | $1,051 |
+| 3 | Untreated pine for shelf slats (under roof, less weather) | $60 | $991 |
+| 4 | Corrugated for back panel (replace twinwall sheet) | $50 | $941 |
+| 5 | Skip aluminium U-channel; foil-tape twinwall ends + timber trim | $25 | $916 |
+| 6 | Mix Marketplace / TradeMe offcuts for posts + bearers | $80+ | $836 |
 
-Realistic floor with all levers applied: **~$826 NZD** (materials only).
+Realistic floor with all levers applied: **~$836 NZD** (materials only).
 
 ---
 
@@ -295,11 +295,11 @@ Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 
 | | NZD |
 |---|---|
-| Materials | ~$1,186 |
+| Materials | ~$1,196 |
 | Tools (buy + ALoT membership) | ~$699 |
-| **Project total** | **~$1,885** |
+| **Project total** | **~$1,895** |
 
-Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,525 all-in** ($826 materials + $699 tools).
+Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,535 all-in** ($836 materials + $699 tools).
 
 ---
 
