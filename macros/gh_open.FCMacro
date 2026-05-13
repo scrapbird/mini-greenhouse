@@ -62,10 +62,11 @@ def compute_closed_placements(ss):
         "DoorR_Infill":     P(x_R + DFT, infill_y0, door_z0 + DFT),
         "DoorR_Latch":      P(x_R + DFT + 5, DFW, door_z0 + door_total_h/2 - 40),
         "Roof_Hatch":        P(0, -overhang_f, H_f - overhang_f * tan_a, rot_x),
-        "Frame_RafterLeft":  P(0, -overhang_f, rafter_base_z, rot_x),
-        "Frame_RafterRight": P(W - RT, -overhang_f, rafter_base_z, rot_x),
-        "Frame_EaveFront":   P(RT, -overhang_f, rafter_base_z, rot_x),
-        "Frame_RidgeBack":   P(RT, ridge_base_y, ridge_base_z, rot_x),
+        "Frame_RafterLeft":   P(0, -overhang_f, rafter_base_z, rot_x),
+        "Frame_RafterRight":  P(W - RT, -overhang_f, rafter_base_z, rot_x),
+        "Frame_RafterCenter": P((W - RT)/2, -overhang_f, rafter_base_z, rot_x),
+        "Frame_EaveFront":    P(RT, -overhang_f, rafter_base_z, rot_x),
+        "Frame_RidgeBack":    P(RT, ridge_base_y, ridge_base_z, rot_x),
     }
 
 
@@ -113,7 +114,7 @@ hinge_y = D
 hinge_z = H_b_wall
 
 for name in ["Roof_Hatch", "Frame_RafterLeft", "Frame_RafterRight",
-             "Frame_EaveFront", "Frame_RidgeBack"]:
+             "Frame_RafterCenter", "Frame_EaveFront", "Frame_RidgeBack"]:
     obj = doc.getObject(name)
     if obj is not None:
         rotate_about(obj, FreeCAD.Vector(0, hinge_y, hinge_z), x_axis, -HATCH_OPEN_DEG)

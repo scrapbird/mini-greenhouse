@@ -153,11 +153,11 @@ H3 = above-ground outdoor treated. H4 = ground-contact treated. Treated radiata 
 Qty + cost (2.4m lengths):
 
 - 4× 70×45 H3 → ~$64
-- 17× 70×35 H3 → ~$187
+- 18× 70×35 H3 → ~$198
 - 2× 90×45 H4 → ~$40
 - 12× 90×21 decking → ~$216
 
-**Timber subtotal: ~$507**
+**Timber subtotal: ~$518**
 
 Why higher than first sketch: pallet-style shelves use 4 long 70×35 battens + 28 short 90×21 slats. That alone is ~9 extra lengths of timber.
 
@@ -251,27 +251,27 @@ Each shelf: 2× 70×35 cross-battens (1910mm long) + 14× 90×21 decking slats (
 
 | | NZD |
 |---|---|
-| Timber | 507 |
+| Timber | 518 |
 | Polycarbonate | 205 |
 | Door hardware | 166 |
 | Hatch hardware | 40 |
 | Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,175** |
+| **Subtotal** | **~$1,186** |
 
 Foundation (~$56) sourced separately, not in this subtotal. Levers to claw back, with quantified savings and running build cost if applied in order:
 
 | # | Lever | Saves | Build cost after |
 |---|---|---|---|
-| 0 | (baseline) | — | $1,175 |
-| 1 | Drop to 1 shelf (2 fewer battens @ ~$11 + 14 fewer decking slats @ ~$5.20) | $95 | $1,080 |
-| 2 | 5L stain instead of 10L | $50 | $1,030 |
-| 3 | Untreated pine for shelf slats (under roof, less weather) | $60 | $970 |
-| 4 | Corrugated for back panel (replace twinwall sheet) | $50 | $920 |
-| 5 | Skip aluminium U-channel; foil-tape twinwall ends + timber trim | $25 | $895 |
-| 6 | Mix Marketplace / TradeMe offcuts for posts + bearers | $80+ | $815 |
+| 0 | (baseline) | — | $1,186 |
+| 1 | Drop to 1 shelf (2 fewer battens @ ~$11 + 14 fewer decking slats @ ~$5.20) | $95 | $1,091 |
+| 2 | 5L stain instead of 10L | $50 | $1,041 |
+| 3 | Untreated pine for shelf slats (under roof, less weather) | $60 | $981 |
+| 4 | Corrugated for back panel (replace twinwall sheet) | $50 | $931 |
+| 5 | Skip aluminium U-channel; foil-tape twinwall ends + timber trim | $25 | $906 |
+| 6 | Mix Marketplace / TradeMe offcuts for posts + bearers | $80+ | $826 |
 
-Realistic floor with all levers applied: **~$815 NZD** (materials only).
+Realistic floor with all levers applied: **~$826 NZD** (materials only).
 
 ---
 
@@ -295,11 +295,11 @@ Skills + YouTube tutorials: see [study_guide.md](study_guide.md).
 
 | | NZD |
 |---|---|
-| Materials | ~$1,175 |
+| Materials | ~$1,186 |
 | Tools (buy + ALoT membership) | ~$699 |
-| **Project total** | **~$1,874** |
+| **Project total** | **~$1,885** |
 
-Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,514 all-in** ($815 materials + $699 tools).
+Foundation (pavers + sand, ~$56) sourced separately — not included. With all material levers applied (see Materials → Total estimate): could land **~$1,525 all-in** ($826 materials + $699 tools).
 
 ---
 

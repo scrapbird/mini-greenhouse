@@ -9,11 +9,11 @@ Product links → Mitre 10 NZ (mitre10.co.nz). Prices are NZD estimates only —
 | Stock | Pieces | 2.4m lengths | Est. price/length | Subtotal |
 |---|---|---|---|---|
 | 70×45 H3 SG8 KD pine (posts) | 4 | 4 | ~$16 | ~$64 |
-| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 26 | 17 | ~$11 | ~$187 |
+| 70×35 H3 SG8 KD pine (frame/doors/shelves/roof) | 27 | 18 | ~$11 | ~$198 |
 | 90×45 H4 wet SG8 pine (floor bearers) | 2 | 2 | ~$20 | ~$40 |
 | 90×21 H3 radiata decking (floor + shelf slats) | 33 | 12 | ~$18 | ~$216 |
 
-**Timber subtotal: ~$507 NZD**
+**Timber subtotal: ~$518 NZD**
 
 Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 at Mitre 10 NZ (closest to model's 90×19 — 2mm thicker, negligible).
 
@@ -39,20 +39,21 @@ Cleats + astragal: rip from 70×35 offcuts (no extra stock). Decking is 90×21 a
 | Frame_BackCenter | 1700mm | 1 |
 | Door{L,R}_Stile{Hinge,Latch} | 1426mm | 4 |
 | Door{L,R}_Rail{Top,Bot} | 882mm | 4 |
-| Frame_Rafter{Left,Right} | 838mm | 2 |
+| Frame_Rafter{Left,Right,Center} | 838mm | 3 |
 | Frame_RailTop{Left,Right} | 573mm | 2 |
 | Frame_RailBot{Left,Right} | 560mm | 2 |
 | Frame_FloorCenter | 630mm | 1 |
 
-**26 pieces, 17 × 2.4m lengths.**
+**27 pieces, 18 × 2.4m lengths.**
 
 Packing:
 - 2 × (1930 + 470 offcut) — eave purlin + ridge purlin
 - 8 × (1910 + 490 offcut) — perimeter rails + shelf battens
-- 1 × (1700 + 573 + 124 offcut)
-- 4 × (1426 + 882 + 89 offcut)
-- 1 × (838 + 838 + 560 + 161 offcut)
-- 1 × (630 + 573 + 560 + 631 offcut) — floor centre + side top rail + side bot rail
+- 1 × (1700 + 573 + 127 offcut)
+- 4 × (1426 + 882 + 92 offcut)
+- 1 × (838 + 838 + 560 + 164 offcut) — rafters L+R + side bot rail
+- 1 × (838 + 630 + 573 + 359 offcut) — **rafter Center + floor centre + side top rail**
+- 1 × (560 + 1840 offcut) — side bot rail #2 (large offcut → cleats/astragal stock)
 
 ## 90×45 H4 wet SG8 pine — [Mitre 10 product](https://www.mitre10.co.nz/shop/building-hardware/timber/structural-framing/structural-framing/wet-radiata-sg8-h4-90x45mm/c/RC61520)
 
@@ -152,13 +153,13 @@ Side panels are 5-sided: cut as rectangle, then trim the upper edge to follow ro
 
 | | NZD |
 |---|---|
-| Timber | 507 |
+| Timber | 518 |
 | Polycarbonate | 205 |
 | Door hardware | 166 |
 | Hatch hardware | 40 |
 | Fasteners | 142 |
 | Finish | 115 |
-| **Subtotal** | **~$1,175** |
+| **Subtotal** | **~$1,186** |
 
 Foundation (~$56 in pavers + sand) sourced separately, **not** in this subtotal. Foam roof eave filler also excluded — user doesn't need an airtight roof.
 - README under-counted hardware (tee-hinges, stay, brackets).
